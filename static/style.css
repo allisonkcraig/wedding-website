@@ -1,0 +1,130 @@
+.general-div {
+	height: 500px;
+	margin: 0px;
+	padding-top: 25px;
+}
+
+.container-fluid {
+	padding: 0px;
+}
+
+
+h1 {
+/*	padding-top: 10px;*/
+	margin-top: 0px;
+}
+
+body {
+	margin: 0px;
+	padding: 0px;
+	font-family: 'Quicksand', sans-serif;
+	color: white;
+/*	overflow: hidden;*/
+}
+
+
+
+#fname {
+	font-size: 5em;
+}
+
+#box1 {
+	background-color: #593B49;
+
+}
+
+
+#box1-content {
+	padding-top: 25px;
+}
+
+#box2 {
+	overflow: hidden;
+	background-image: url("/static/img/wedding2.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	color: white;
+	text-align: center;
+	box-shadow: 1px 1px 3px gray;
+}
+
+#box2-content {
+	padding-top: 30px;
+}
+#box3 {
+	background-color: #383D4E;
+	box-shadow: 1px 1px 3px gray;
+	color: white;
+
+}
+
+#box3-5 {
+	background-color: #535140;
+	box-shadow: 1px 1px 3px gray;
+	color: white;
+}
+
+
+#box4 {
+	overflow: hidden;
+	background-image: url("/static/img/wedding.jpg");
+	background-attachment: fixed;
+	box-shadow: 1px 1px 3px gray;
+}
+
+#box5 {
+	background-color: #728081;
+	box-shadow: 1px 1px 3px gray;
+}
+
+#box6 {
+	height: 100px;
+	overflow: hidden;
+	background-image: url("/static/img/wedding.jpg");
+	background-attachment: fixed;
+	box-shadow: 1px 1px 3px gray;
+}
+
+
+.header-box {
+	position: relative; /* anchor for paralax*/
+	height:600px;
+	color: white;
+	background-image: url("/static/img/wedding.jpg");
+	background-attachment: fixed;
+	background-size: 100%;
+	background-position: 0 -50px; 
+	overflow: hidden;
+	box-shadow: 1px 1px 3px gray;
+
+}
+
+#logo {
+	position: relative;
+	margin: 0 auto;
+	text-align: center;
+	width: 100%;
+	font-family: 'Sacramento', cursive;
+	text-align: center;
+	padding-top: 120px;
+	text-shadow: 1px 1px black;
+}
+
+
+#geo-lace {
+	width: cover;
+	float: top;
+	margin-top: -30%;
+	
+}
+
+#carousel-example-generic {
+	margin-left: 50px;
+	width: 500px;
+}
+
+.left-title {
+	margin-left: 50px;
+	padding-bottom: 10px;
+}
+
