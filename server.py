@@ -9,6 +9,12 @@ app = Flask(__name__)
 def index():
     """Show our index page."""
 
+    return render_template("login.html")
+
+@app.route('/eat-drink-be-married')
+def index():
+    """Show our index page."""
+
     return render_template("home.html")
 
 
